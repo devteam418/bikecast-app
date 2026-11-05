@@ -53,6 +53,8 @@ Language is in **Settings**. Colors are behind the palette button at the top of 
 
 ## Your data and location
 
+For full details, read the [privacy policy](privacy.md).
+
 - **No account:** BikeCast doesn't ask you to sign up and contains no advertising or analytics tools.
 - **Your profile:** your stations, times and preferences are stored on your iPhone.
 - **Location:** BikeCast uses it to choose the right trip, find nearby stations and estimate walking time on your iPhone.

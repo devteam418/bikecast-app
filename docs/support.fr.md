@@ -51,6 +51,8 @@ La langue se trouve dans les **Réglages**. Les couleurs sont accessibles avec l
 
 ## Vos données et votre position
 
+Pour tous les détails, consultez la [politique de confidentialité](privacy.md).
+
 - **Aucun compte :** BikeCast ne demande aucune inscription et ne contient aucun outil de publicité ou de mesure d'audience.
 - **Votre profil :** vos stations, horaires et préférences sont enregistrés sur votre iPhone.
 - **Position :** BikeCast l'utilise pour choisir le bon trajet, trouver les stations proches et estimer le temps de marche sur votre iPhone.

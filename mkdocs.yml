@@ -40,13 +40,16 @@ plugins:
           nav_translations:
             Home: Accueil
             Support: Assistance
+            Privacy: Confidentialité
 
 nav:
   - Home: index.md
   - Support: support.md
+  - Privacy: privacy.md
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - tables
   - toc:
       permalink: true
