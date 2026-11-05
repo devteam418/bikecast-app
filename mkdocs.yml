@@ -1,0 +1,52 @@
+site_name: BikeCast
+site_url: https://devteam418.github.io/bikecast-app/
+site_description: Commute weather and live bike-share availability for your exact ride.
+copyright: © 2026 BikeCast · Weather data by <a href="https://open-meteo.com/">Open-Meteo.com</a>
+
+theme:
+  name: material
+  language: en
+  logo: assets/icon.png
+  favicon: assets/favicon.png
+  font: false
+  features:
+    - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      reconfigure_material: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          site_description: La météo de votre trajet et les vélos disponibles en temps réel.
+          nav_translations:
+            Home: Accueil
+            Support: Assistance
+
+nav:
+  - Home: index.md
+  - Support: support.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
